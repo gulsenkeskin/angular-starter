@@ -1,6 +1,8 @@
 # AngularStarter
 
 ## Structure:
+
+```
 |-- app
     |-- components
     |-- directives
@@ -21,7 +23,7 @@
      |-- services
 |-- assets
 |-- environnement
-
+```
 
 ##
 
