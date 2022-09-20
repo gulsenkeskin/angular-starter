@@ -8,9 +8,10 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'login', component: LoginComponent },
+  { path: 'contact', loadChildren: () => import('./modules/general/contact/contact.module').then(mod => mod.ContactModule) },
+  { path: 'about', loadChildren: () => import('./modules/general/about/about.module').then(mod => mod.AboutModule) },
+  { path: 'login', loadChildren: () => import('./modules/general/login/login.module').then(mod => mod.LoginModule) },
+  { path: 'signup', loadChildren: () => import('./modules/general/signup/signup.module').then(mod => mod.SignupModule) },
   { path: '**', component: NotFoundComponent }
 ];
 
