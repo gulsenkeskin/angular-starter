@@ -25,6 +25,12 @@
 |-- environnement
 ```
 
+### Add new module:
+ng generate component modules/general/home --module=app 
+
+
+
+
 ##
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
