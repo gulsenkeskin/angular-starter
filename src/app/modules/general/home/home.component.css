@@ -5,6 +5,7 @@
   border-radius: 2px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
+  padding: 15px;
 }
 
 .nga-card:hover {
