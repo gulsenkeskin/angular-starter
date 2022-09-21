@@ -28,7 +28,7 @@ export class ItemsComponent implements OnInit {
     )
   }
 
-  resetUser(): void {
+  resetUsers(): void {
     this.items = null;
     this.loaded = true;
   }
